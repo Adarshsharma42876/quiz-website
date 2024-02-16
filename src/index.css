@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checked {
+  margin-left: -15px;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #44b77b;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.unchecked {
+  margin-left: -15px;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f4fa;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: left;
+}
